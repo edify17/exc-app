@@ -19,6 +19,7 @@
     "module-b": "sakshigupta/module-b.git#webpack",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-router-dom": "^5.0.0"
+    "react-router-dom": "^5.0.0",
+    "history": "^4.9.0"
   }
 }
