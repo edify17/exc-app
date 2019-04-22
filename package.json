@@ -6,19 +6,20 @@
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
-    "parcel-bundler": "^1.12.3"
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
-    "module-a": "https://github.com/sakshigupta/module-a.git",
-    "module-b": "https://github.com/sakshigupta/module-b.git",
+    "module-a": "sakshigupta/module-a.git#webpack",
+    "module-b": "sakshigupta/module-b.git#webpack",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-router-dom": "^5.0.0"
-  },
-  "scripts": {
-    "start": "parcel public/index.html"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "react-router-dom": "^5.0.0",
+    "history": "^4.9.0"
   }
 }
